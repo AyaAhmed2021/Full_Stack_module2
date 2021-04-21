@@ -1,0 +1,15 @@
+<div class="card w-50 mt-5 mx-auto shadow" >
+    <h5 class="card-header text-center">Signup</h5>
+    <div class="card-body">
+        <div class="mb-3">
+            <input type="text" class="form-control" placeholder="type your name"[(ngModel)]="name">
+          </div>
+        <div class="mb-3">
+            <input type="email" class="form-control" placeholder="name@example.com"[(ngModel)]="email">
+          </div>
+          <div class="mb-3">
+            <input type="password" class="form-control" placeholder="type your password"[(ngModel)]="password">
+          </div>
+      <a class="btn btn-primary w-25 d-block m-auto" (click) = signup()>Signup</a>
+    </div>
+  </div>
